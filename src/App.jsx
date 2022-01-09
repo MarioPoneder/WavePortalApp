@@ -13,15 +13,16 @@ export default function App() {
 
       <div className="dataContainer">
         <div className="header">
-        👋 Hey there!
+        Welcome to WavePortal 👋
         </div>
 
         <div className="bio">
-        Connect your Ethereum wallet and wave at me!
+        <p>This is a decentralized guestbook which lives on the Ethereum blockchain.</p>
+        <p>Connect with MetaMask and wave at me.</p>
         </div>
 
         <button className="waveButton" onClick={wave}>
-          Wave at Me
+        Wave!
         </button>
       </div>
     </div>
