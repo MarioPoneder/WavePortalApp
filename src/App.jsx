@@ -10,7 +10,7 @@ export default function App() {
   */
   const [currentAccount, setCurrentAccount] = useState("");
 
-  const contractAddress = "0x167F37d74dcFD60c6FA1eB33a3a35840f144a064";
+  const contractAddress = "0x34ec23421EB96cb0F8089762112d18665c8aAeE4";
   const contractABI = wavePortal.abi;
 
   const checkIfWalletIsConnected = async () => {
